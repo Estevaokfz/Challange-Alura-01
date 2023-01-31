@@ -1,0 +1,121 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+body {
+    background: linear-gradient(white, #d3d3d3, #474A51);
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+main {
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.texto {
+    background-color: white;
+    color: #474A51;
+    border: none;
+    margin-top: 50px;
+    text-transform: lowercase;
+    border-radius: 24px;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #474A51
+}
+
+.texto:focus {
+    outline: none;
+}
+
+.resultado {
+    background-image: url(/imagens/cadeado.png );
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y: center;
+    background-position-x: center;
+    text-align: center;
+    background-color: white;
+    border: none;
+    border-radius: 24px;
+    color: #474A51;
+    margin-left: 175px;
+    margin-top: 20px;
+    padding-left: 20px;
+
+}
+
+.botoes {
+    margin-top: 10px;
+}
+
+.btn-criptografar {
+    background-color: #474A51;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.btn-criptografar:hover {
+    color: #474A51;
+    background-color: white;
+    transition: 1s;
+}
+
+.btn-descriptografar {
+    background-color: #474A51;
+    color: white;
+    border: none;
+    border-radius: 9px;
+}
+
+.btn-descriptografar:hover {
+    color: #474A51;
+    background-color: white;
+    transition: 1s;
+}
+
+.btn-copiar {
+    background-color: #474A51;
+    color: white;
+    border-radius: 9px;
+    border: none;
+   
+}
+
+.btn-copiar:hover {
+    color: #474A51;
+    background-color: white;
+    transition: 1s;
+}
+
+footer {
+    text-align: center;
+}
+
+.logo-footer {
+
+    margin-top: 15px;
+    width: 150px;
+    height: 150px;
+}

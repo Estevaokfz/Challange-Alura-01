@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encripitador</title>
+</head>
+
+<body>
+
+    <header>
+        <img class="logo" src="/imagens/Logo.png" alt="logo-Oracle-Next">
+    </header>
+    <main>
+    <section>
+        <textarea  id="textoInput"class="texto" cols="45" rows="5" placeholder="Insira seu texto aqui!"></textarea>
+
+        <div class="alerta">
+            <h1>Adicione apenas letras minusculas e sem acento</h1>
+        </div>
+
+        <div class="botoes">
+            <button class="btn-criptografar" onclick="criptografa()">Criptografar</button>
+            <button class="btn-descriptografar" onclick="descriptografar()">Descriptografar</button>
+        </div>
+    </section>
+
+    <section>
+        <textarea  id="resultadoOutput" class="resultado" cols="20" rows="10">Seu texto Criptografado aparecerá aqui!</textarea>
+        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+    </section>
+    </main>
+    <footer>
+        <img class="logo-footer" src="/imagens/Logo02.png" alt="logo-Oracle-Next">
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
